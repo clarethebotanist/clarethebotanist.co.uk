@@ -1,0 +1,155 @@
+	body {
+	  background-color: white;
+	  margin: 0px 10px 10px 5px;
+	  min-width: 815px; 
+	  font-family: Arial, sans-serif;
+	  font-size: 15px;
+	  font-weight: normal;
+	  text-align: left;
+	}
+	
+	/* In which the main content goes */
+#wrapper {
+	width: 815px;
+	margin: 0 auto;
+}
+	
+	/* The fonts, headers and text */
+	
+	/* The header */
+	  #header 
+	  {
+      width: 770px;
+      margin: 0px;
+      padding: 20px;
+	  line-height:30px; 
+      /* background-color: #218221;*/
+      background-image: url('Briza2.jpg') ; 
+      color:white;
+      min-height:100px;
+      }
+      
+      /* The footer */
+      #footer
+      {
+      width: 815px;
+      margin: 0px;
+      padding: 10px;
+      text-align: center;
+      background-color: #218221;
+    color:white
+ }
+
+h1{
+font-size: 30px;
+font-weight: normal;
+
+}
+
+h2{
+font-size: 150%;
+}
+
+h3{
+font-size: 113%;
+font-weight: bold;
+
+}
+
+h4{
+font-size: 105%;
+
+}
+
+#picture {
+	font-size: 12px;
+	display:inline-block;
+	text-align:center;
+	margin:auto;
+	width: 300px;
+	margin-top: 40px;
+}
+
+.floatstop {
+	clear:both;
+}
+	
+/* Menu list */
+	
+	ul#list-nav {
+	
+list-style:none;
+margin:0px;
+padding:0px;
+width:100%
+}
+
+ul#list-nav li {
+display:inline
+}
+
+ul#list-nav li a {
+
+text-decoration:none;
+padding:5px 5px;
+width:124px;
+background:#218221;
+color:#eee;
+float:left;
+text-align:center;
+border-left:1px solid #fff;
+font-size:115%;
+}
+/* Applies only to first element in menu */
+ul#list-nav li:first-child a {
+	border-left: 1px solid #218221; }
+	
+	/* Applies only to first element in menu */
+ul#list-nav li:last-child a {
+	border-right: 1px solid #fff; }
+	
+ul#list-nav li a:hover {
+background:#baec79;
+color:#000
+}
+
+
+/* Defining the columns */
+#column1 {
+	float:left;
+	width: 450px;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+#column2 {
+	float:right;
+	width: 490px;
+	margin-top: 20px;
+}
+
+#column3 {
+	float:left;
+	width: 450px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-top: 50px;
+}
+
+
+#bullet_list{
+font-size: 100%;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+	
+div.horizontal-picture {
+	float: left;
+	text-align: center;
+	margin: 10px;
+	font-size: 12px;
+
+}
